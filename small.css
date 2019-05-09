@@ -1,0 +1,32 @@
+#bar {
+    display: block;
+    position: fixed;
+    left: 90%;
+
+}
+nav ul li {
+    display: none;
+}
+main div{
+   display: block;
+}
+nav div {
+    justify-content: flex-end;
+    display: inline-block;
+
+}
+main {
+    display:flex;
+    margin: 0%;
+    width: 100%;
+}
+main div {
+flex-direction: column;
+display: block;
+}
+figcaption {
+    display: block;
+}
+figure div {
+    display: block;
+}

@@ -1,0 +1,83 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+#bar {
+    display: none;
+}
+
+nav ul li {
+    display: inline;
+    border: 1px solid white;
+    padding: 8px;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+img#logo {
+    height: 50px;
+    width: 80px;
+    position: fixed;
+
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: white;
+
+}
+body {
+    background-color: #f7f7f7;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    
+}
+main {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 60px;
+}
+figure {
+    margin: 0%;
+    display: inline-block;
+    display: flex;
+    flex-direction:row; 
+}
+figure div {
+    display: inline;
+    margin: 5px;
+}
+figure img {
+    height: 400px;
+    width: 250px;
+}
+span#rating-stars {
+    color: #f7b733;
+}
+span#price {
+    color: #b12703
+
+}
+button {
+    background-color: #f2849e;
+    border: none;
+    color: white;
+    padding: 8px 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+button:hover {
+    background-color:#ed4b74;
+}

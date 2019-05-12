@@ -40,7 +40,7 @@ figure {
     margin: 0%;
     display: inline-block;
     display: flex;
-    flex-direction: column; 
+    flex-direction:row; 
     border-bottom: 1px solid rgba(128, 128, 128, 0.39);
 }
 figure div {
@@ -54,6 +54,7 @@ div#book-description {
     margin: 0%;
 }
 div#book-description h3 {
+    letter-spacing:8px;
     font-weight: bolder;
     margin-top: 0%;
 }
@@ -67,12 +68,12 @@ div#book-description span{
     display: block;
 }
 div#book-description span#price{
-    margin-left: 110px;
+    margin-left: 170px;
 
 }
 
 figcaption {
-    width: 100%;
+    width: 360px;
 }
 figure img {
     height: 400px;
@@ -84,7 +85,6 @@ figure img {
 }
 span#rating-stars {
     color: #f7b733;
-    display: block;
 }
 span#price {
     color: #b12703;
@@ -95,12 +95,9 @@ button {
     background-color: #f2849e;
     border: none;
     color: white;
-    padding: 15px 75px;
+    padding: 10px 100px;
     font-family: 'Source Sans Pro', sans-serif;
 
-}
-hr {
-    display: none;
 }
 button:hover {
     background-color:#ed4b74;

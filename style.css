@@ -2,10 +2,6 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
-p {
-    font-family: 'Source Sans Pro', sans-serif;
-
-}
 #bar {
     display: none;
 }
@@ -26,6 +22,8 @@ img#logo {
     height: 50px;
     width: 80px;
     position: fixed;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.432);
 
 }
 nav {
@@ -37,31 +35,36 @@ nav {
 }
 body {
     background-color: #f7f7f7;
-    font-family: 'Source Sans Pro', sans-serif;
-
-    
+    margin: 0%;
 }
 main {
-    width: 80%;
     height: auto;
     background-color: white;
     display: flex;
     flex-direction: column;
     margin: 0px 60px;
+    padding: 0px 93px;
 }
 figure {
     margin: 0%;
     display: inline-block;
     display: flex;
     flex-direction:row; 
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
 }
 figure div {
     display: inline;
     margin: 5px;
 }
+div#book-description {
+    margin: 0%;
+}
 figure img {
     height: 400px;
     width: 250px;
+    border-left: 4px solid rgba(128, 128, 128, 0.39);
+    border-right: 4px solid rgba(128, 128, 128, 0.39);
+
 }
 span#rating-stars {
     color: #f7b733;
@@ -80,4 +83,22 @@ button {
 }
 button:hover {
     background-color:#ed4b74;
+}
+div#availability {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+
+}
+div#details{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+}
+div#details ul li {
+    list-style-type: none;  
+    margin: 8px 0px;  
+}
+div#details ul {
+    padding: 0px;
+}
+article {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    
 }

@@ -1,12 +1,13 @@
 /* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
 * {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
 #bar {
     position: fixed;
     left: 88%;
-    display: flex;
-    font-size: 25px;
+    display: block;
+    font-size: 30px;
     padding: 10px;
     background-color: #ffffff6b;
 }
@@ -14,8 +15,8 @@ nav ul li {
     display: none;
 }
 img#logo {
-    height: 50px;
-    width: 80px;
+    height: 60px;
+    width: 100px;
     position: fixed;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.432);
@@ -24,10 +25,10 @@ img#logo {
 nav {
     width: 100%;
     background-color: white;
-    height: 70px;
+    height: 100px;
 }
 body {
-    background-color: #f7f7f7;
+    background-color: white;
     margin: 0%;
     padding: 0px 30px;
 }
@@ -41,22 +42,29 @@ figure {
     display: inline-block;
     display: flex;
     flex-direction:row; 
-    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    border-bottom: 3px solid rgba(128, 128, 128, 0.39);
+    padding-bottom: 20px;
 }
 figure div {
     display: inline;
-    margin: 0px 25px;
+    margin: 0px 5%;
 }
-div#book-img {
-    margin-left: 0%;
-}
+
 div#book-description {
     margin: 0%;
+    width: 100%;
+
 }
 div#book-description h3 {
-    letter-spacing:8px;
+    letter-spacing:0.2em;
     font-weight: bolder;
     margin-top: 0%;
+    font-size: 2em;
+}
+div#book-description p {
+    border-top:3px solid rgba(128, 128, 128, 0.39);
+    font-size: 1.5em;
+
 }
 div#book-description article{
     color:grey;
@@ -64,7 +72,7 @@ div#book-description article{
     border: none;
 }
 div#book-description span{
-    margin: 15px 0px;
+    margin: 25px 0px;
     display: block;
 }
 div#book-description span#price{
@@ -73,18 +81,25 @@ div#book-description span#price{
 }
 
 figcaption {
-    width: 360px;
+    width: 70%;
+    display: flex;
+
 }
 figure img {
-    height: 400px;
-    width: 250px;
-    border-top: 30px solid rgba(128, 128, 128, 0.39);
-    border-bottom: 30px solid rgba(128, 128, 128, 0.39);
+
+    min-width: 35%;
+    height: 40%;
+    width: 50%;
+    min-height: fit-content;
+    border-top: 45px solid rgba(128, 128, 128, 0.39);
+    border-bottom: 45px solid rgba(128, 128, 128, 0.39);
     border-right: none;
     border-left: none;
+    margin-right: 20px;
 }
 span#rating-stars {
     color: #f7b733;
+    font-size: 2em;
 }
 span#price {
     color: #b12703;
@@ -95,19 +110,20 @@ button {
     background-color: #f2849e;
     border: none;
     color: white;
-    padding: 10px 100px;
-    font-family: 'Source Sans Pro', sans-serif;
-
+    width: 85%;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.8em 1.5em;
 }
 button:hover {
     background-color:#ed4b74;
 }
 div#availability {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    border-bottom: 3px solid rgba(128, 128, 128, 0.39);
 
 }
 div#details{
-    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    border-bottom: 3px solid rgba(128, 128, 128, 0.39);
 }
 div#details ul li {
     list-style-type: none;  
@@ -117,6 +133,6 @@ div#details ul {
     padding: 0px;
 }
 article {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    border-bottom: 3px solid rgba(128, 128, 128, 0.39);
     
 }

@@ -95,9 +95,10 @@ button {
     background-color: #f2849e;
     border: none;
     color: white;
-    padding: 15px 75px;
-    font-family: 'Source Sans Pro', sans-serif;
-
+    width: 85%;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.8em 1.5em;
 }
 hr {
     display: none;

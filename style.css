@@ -1,6 +1,7 @@
 /* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
 * {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
 }
 #bar {
     display: none;
@@ -9,13 +10,14 @@
 nav ul li {
     display: inline;
     border: 1px solid white;
-    padding: 8px;
+    padding: 30px;
+    font-size: 2em;
 }
 nav ul li a {
     color: black;
     font-weight: bold;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.5em;
     
 }
 img#logo {
@@ -31,6 +33,8 @@ nav {
     width: 100%;
     justify-content: flex-end;
     background-color: white;
+    height: 75px;
+    align-items: center;
 
 }
 body {
@@ -42,8 +46,8 @@ main {
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin: 0px 60px;
-    padding: 0px 93px;
+    margin: 0px 125px;
+    padding: 0px 110px;
 }
 figure {
     margin: 0%;
@@ -51,6 +55,8 @@ figure {
     display: flex;
     flex-direction:row; 
     border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    padding-bottom: 20px;
+
 }
 figure div {
     display: inline;
@@ -59,26 +65,58 @@ figure div {
 div#book-description {
     margin: 0%;
 }
+div#book-description h3 {
+    letter-spacing:0.2em;
+    font-weight: bolder;
+    margin-top: 0%;
+    font-size: 1.3em;
+}
+div#book-description p {
+    border-top:3px solid rgba(128, 128, 128, 0.39);
+    font-size: 1.2em;
+
+}
+div#book-description article{
+    color:grey;
+    font-weight: bold;
+    border: none;
+}
+div#book-description span{
+    margin: 25px 0px;
+    display: block;
+}
+div#book-description span#price{
+    margin-left: 140px;
+
+}
+
 figure img {
     height: 400px;
     width: 250px;
     border-left: 4px solid rgba(128, 128, 128, 0.39);
     border-right: 4px solid rgba(128, 128, 128, 0.39);
+    margin-right: 20px;
+
 
 }
 span#rating-stars {
     color: #f7b733;
+    font-size: 1.5em;
+
 }
 span#price {
-    color: #b12703
+    color: #b12703;
+    font-weight: bold;
 
 }
 button {
     background-color: #f2849e;
     border: none;
     color: white;
-    padding: 8px 35px;
-    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.8em 1.5em;
 
 }
 button:hover {
